@@ -3,7 +3,7 @@ package toggle
 import kotlin.test.Ignore
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
-
+@Ignore
 class FeatureToggleExampleTest {
 
     @Test

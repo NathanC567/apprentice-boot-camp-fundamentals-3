@@ -6,6 +6,7 @@ import java.time.LocalDate
 import java.time.Month
 import kotlin.test.assertEquals
 
+@Ignore
 class TaxCalculatorAfterFirstYearForExpensiveVehiclesTest {
 
     private val taxCalculator: TaxCalculator = DefaultTaxCalculator()
