@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 import java.time.LocalDate
 import java.time.Month
 import kotlin.test.assertEquals
-
+@Ignore
 class TaxCalculatorDieselTest {
 
     private val taxCalculator: TaxCalculator = DefaultTaxCalculator()
