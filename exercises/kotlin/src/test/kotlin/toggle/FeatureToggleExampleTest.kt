@@ -15,7 +15,6 @@ class FeatureToggleExampleTest {
     }
 
     @Test
-    @Ignore
     fun spareScoring() {
         val bowlingCalculator = BowlingCalculator(true)
         assertEquals(bowlingCalculator.score(5, 5, 5, 5, 5, 5),40)
