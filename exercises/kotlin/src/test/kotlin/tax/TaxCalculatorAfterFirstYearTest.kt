@@ -8,7 +8,7 @@ import kotlin.test.assertEquals
 
 class TaxCalculatorAfterFirstYearTest {
 
-    private val taxCalculator: TaxCalculator = DummyTaxCalculator()
+    private val taxCalculator: TaxCalculator = DefaultTaxCalculator()
     private val FIRST_OF_APRIL_2017 = LocalDate.of(2017, Month.APRIL, 1)
 
     @Test
